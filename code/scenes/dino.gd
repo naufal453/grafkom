@@ -6,7 +6,6 @@ const FALL : int = 3000
 const DASH : int = 200
 const BACK : int = -500
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	velocity.y += GRAVITY * delta
